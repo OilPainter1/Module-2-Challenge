@@ -1,0 +1,33 @@
+:root {
+    --commonColor: rgb(44, 181, 199);
+}
+body{
+    background-color: azure;
+}
+header{
+    background-color:aquamarine;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px;
+    
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+    
+}
+
+.navContents{
+    margin: 30px;
+    color: rgb(123, 123, 19);
+}
+.footerTitle{
+    font-size: medium;
+    justify-content: center;
+    font-weight: 300;
+}
