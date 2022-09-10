@@ -5,13 +5,13 @@ body{
     background-color: azure;
 }
 header{
-    background-color:aquamarine;
+    background-color:aqua;
     color:black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 20px;
     margin: 50px;
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
     box-shadow: 5px 5px 10px;
     
 }
@@ -19,12 +19,41 @@ nav{
     display: flex;
     justify-content: flex-end;
     margin: 20px;
+    background-color: rgb(34, 188, 188);
+    box-shadow:5px 5px 10px;
+    
+}
+@media screen and (max-width: 600px) {
+    nav{
+    display: block;
+    padding: 20px;
+    }
+    
+}
+.profilePicture{
+    display: flex;
+    height: 400px;
+    justify-content:center;
+
+}
+img{
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    box-shadow:5px 5px 10px;
+    border-radius: 5px;
+    
     
 }
 
 .navContents{
     margin: 30px;
-    color: rgb(123, 123, 19);
+    color:black;
+}
+
+.AboutMe header {
+    font-weight: lighter;
+    background-color: aquamarine;
 }
 .footerTitle{
     font-size: medium;
