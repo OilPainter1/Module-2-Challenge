@@ -4,6 +4,10 @@
 body{
     background-color: azure;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 header{
     background-color:aqua;
     color:black;
@@ -13,6 +17,7 @@ header{
     text-align: center;
     font-weight: bolder;
     box-shadow: 5px 5px 10px;
+    border-radius: 5px;
     
 }
 nav{
@@ -21,6 +26,10 @@ nav{
     margin: 20px;
     background-color: rgb(34, 188, 188);
     box-shadow:5px 5px 10px;
+    border-radius: 30px;
+}
+.navContents a:hover{
+    color:blue
     
 }
 @media screen and (max-width: 600px) {
@@ -55,8 +64,39 @@ img{
     font-weight: lighter;
     background-color: aquamarine;
 }
+.AboutMe h3{
+    margin-left: 100px;
+}
+.AboutMe ul{
+    margin-left:130px
+}
+.work header{
+    font-weight: lighter;
+    background-color: aquamarine;
+}
+.work div{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px;
+}
 .footerTitle{
-    font-size: medium;
-    justify-content: center;
-    font-weight: 300;
+    font-weight: lighter;
+    background-color: aquamarine;
+}
+.footerContents {
+    display: flex;
+    justify-content: flex-end;
+    margin:20px;
+    
+
+}
+@media screen and (max-width: 600px){
+    .footerContents{
+        display: block;
+        padding: 20px;
+    }
+}
+.footerContents div{
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
