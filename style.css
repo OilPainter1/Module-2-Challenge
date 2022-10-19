@@ -100,3 +100,13 @@ img{
     padding-left: 20px;
     padding-bottom: 20px;
 }
+button{
+    height: 50px;
+}
+button:hover{
+    cursor: pointer;
+    width: 150px;
+    box-shadow: 5px 5px 5px;
+    background-color: lavender;
+    
+}
